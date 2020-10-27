@@ -9,7 +9,7 @@ const io = require('./sockets/io')(server);
 
 
 const publicPath = path.resolve(__dirname, '../public');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9080;
 
 app.use(express.static(publicPath));
 
